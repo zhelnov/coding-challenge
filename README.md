@@ -21,10 +21,10 @@ To accomplish this you will build two services:
 - Make an endpoint on **data-streams** that can stop the data fetching on **worker**.
 
 ## How we evaluate
+- We understand that this can be **time consuming**. If you are short on time leave something out. But be sure to tell us your approach to the problem in the documentation.
 - A documented answer that explains your approach, short-comings, how-to-run and future work.
 - A working solution. Preferably with some tests to give us an idea of how you write tests (you don't need to put it all under test).
 - Reliability is very important when dealing with data-pipelines. So any measures you can add to keep the data-flowing will be appreciated.
-- We understand that this can be time consuming. If you are short on time leave something out. But be sure to tell us your approach to the problem in the documentation.
 - We appreciate small commits with a trail of messages that shows us how you work.
 
 ## Project structure
