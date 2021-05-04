@@ -3,6 +3,8 @@
 ## Introduction
 Here at Weld we use [NestJS](https://nestjs.com/) for our applications. So this project also reflects that. On our front-end we use NextJS and GraphQL. For simplicity we have used the monorepo structure from NestJS.
 
+Fork this repository and create your own repository to get started.
+
 ## Challenge
 One of our customers wants us to help them build a pipeline for Hubspot. And they want us to setup a new data-pipeline for them to get information out and into their current data-warehouse.
 
