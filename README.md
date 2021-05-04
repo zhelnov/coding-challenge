@@ -37,5 +37,15 @@ To accomplish this you will build two services:
 This is our API. We will be able to issue HTTP requests to this and have it talk to our microservice **worker**.
 We also store any information that **worker** sends our way. This project has been setup as a hybrid app. It can both function as an API but also as a microservice with an internal communication layer.
 
+You can start data-streams with:
+```
+yarn start
+```
+
 ### worker:
 This is the worker microservice that is in charge of talking to the external API. It will fetch data when issued a command from **data-streams** and then return the results. This project only functions as a microservice which means it can only receive commands from the internal communication layer.
+
+You can start worker with:
+```
+yarn start worker
+```

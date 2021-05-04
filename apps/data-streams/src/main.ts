@@ -3,10 +3,10 @@ import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 
 const initMicroservice = async (app: INestApplication) => {
-  const microservice = app.connectMicroservice({});
-
+  app.connectMicroservice({
+        // Setup communication protocol here
+  });
   await app.startAllMicroservicesAsync();
-  microservice.listen(() => console.log('microservice is listening'));
 };
 
 async function bootstrap() {
